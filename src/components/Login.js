@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Navigate } from "react-router-dom";
+import { Navigate, Link } from "react-router-dom";
 import LocalStorage from "./LocalStorage";
 import "./../styles/Login.css";
 
@@ -51,6 +51,9 @@ class Login extends Component {
                         onChange={this.handleInputChange}
                     />
                     <button type="submit">Login</button>
+                    <Link to="/register" className="registration-link">
+                    Don't have an account? Register here
+                </Link>
                 </form>
             </div>
         );

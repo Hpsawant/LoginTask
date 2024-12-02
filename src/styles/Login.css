@@ -1,10 +1,61 @@
-.login-container {
-  text-align: center;
-  margin-top: 50px;
+body{
+  background: url("https://img.freepik.com/free-vector/blue-futuristic-waves-background-with-computer-code-technology_53876-119584.jpg?semt=ais_hybrid") no-repeat center center fixed;
+    background-size: cover;
 }
 
-form input {
-  margin: 10px;
-  padding: 8px;
-  width: 200px;
+
+.login-container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.login-container h2 {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.login-container input {
+  width: 90%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1em;
+  box-sizing: border-box;
+}
+
+.login-container button {
+  width: 95%;
+  padding: 10px;
+  margin-top: 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.login-container button:hover {
+  background-color: #0056b3;
+}
+
+.registration-link {
+  display: block;
+  margin-top: 15px;
+  font-size: 0.9em;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.registration-link:hover {
+  text-decoration: underline;
 }
